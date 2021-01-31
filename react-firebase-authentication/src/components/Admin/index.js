@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
+
 import { withFirebase } from '../Firebase';
  
-import * as ROLES from '../../constants/roles';
+// import * as ROLES from '../../constants/roles';
 
 class AdminPage extends Component {
   constructor(props) {
